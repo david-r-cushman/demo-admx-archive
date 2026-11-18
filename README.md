@@ -1,10 +1,14 @@
-# Vendor Administrative Template Archive
+# Example Vendor Administrative Template Archive
 
-This repository is a reusable template for archiving one vendor's
-administrative-template distributions across multiple releases. A repository
-created from this template preserves original vendor downloads, records their
-provenance and SHA-256 hashes, and verifies that registered downloads have not
-changed.
+This repository is a public demonstration archive for fictional Example Vendor
+administrative-template distributions. It preserves example source archives,
+records their provenance and SHA-256 hashes, and verifies that registered
+downloads have not changed.
+
+It was created from the
+[vendor-admx-archive](https://github.com/david-r-cushman/vendor-admx-archive)
+template. See [Demo Artifacts](DEMO_ARTIFACTS.md) for the fictional,
+self-authored artifact policy and licensing.
 
 The archive does not establish vendor authenticity, download releases, extract
 packages, deploy templates, or diagnose every file in the repository. Git and
@@ -164,17 +168,15 @@ Releases are manual maintainer actions.
 
 ## Governance
 
-After the GitHub Actions test workflow is passing, enable GitHub's **Template
-repository** setting if this repository will be used as a template. Configure
-protection for `main` through GitHub: require pull requests and the passing test
-check, and restrict direct and force pushes as appropriate for the repository.
-These are repository-governance controls, not verifier behavior.
+Configure protection for `main` through GitHub: require pull requests and the
+passing test check, and restrict direct and force pushes as appropriate for the
+repository. These are repository-governance controls, not verifier behavior.
 
 ## License and vendor artifacts
 
-[MIT](LICENSE) applies only to the scripts, tests, workflow, and documentation
-authored for this template. Vendor-supplied artifacts archived in repositories
-created from it remain subject to their original vendors' terms and licenses.
+[MIT](LICENSE) applies to this repository's scripts, tests, workflow,
+documentation, and self-authored demonstration artifacts. All example vendor
+names and artifacts are fictional; see [Demo Artifacts](DEMO_ARTIFACTS.md).
 
 ## Architecture decision
 

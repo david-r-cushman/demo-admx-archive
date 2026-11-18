@@ -14,6 +14,13 @@ not version vendor distributions stored under `versions/`.
 - Added contribution and security policies plus a public bug-report form for
   the template's community-health baseline.
 
+- Added a self-authored, fictional demonstration-artifact policy.
+
+### Changed
+
+- Identified this derived archive as the Example Vendor demonstration of the
+  vendor-admx-archive template.
+
 ## 0.1.0 - 2026-11-17
 
 ### Added
