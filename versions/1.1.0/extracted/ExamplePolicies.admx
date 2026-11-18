@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <policyNamespaces>
+    <target prefix="example" namespace="Example.Policy" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <resources minRequiredRevision="1.0" />
+  <categories>
+    <category name="ExampleVendorCategory" displayName="$(string.ExampleVendorCategory)" />
+  </categories>
+  <policies>
+    <policy name="EnableExampleFeature" class="Machine" displayName="$(string.EnableExampleFeature)" explainText="$(string.EnableExampleFeature_Help)" key="Software\Policies\ExampleVendor\ExampleProduct" valueName="EnableExampleFeature">
+      <parentCategory ref="ExampleVendorCategory" />
+      <supportedOn ref="windows:SUPPORTED_Windows7" />
+      <enabledValue><decimal value="1" /></enabledValue>
+      <disabledValue><decimal value="0" /></disabledValue>
+    </policy>
+    <policy name="EnableExampleDiagnostics" class="Machine" displayName="$(string.EnableExampleDiagnostics)" explainText="$(string.EnableExampleDiagnostics_Help)" key="Software\Policies\ExampleVendor\ExampleProduct" valueName="EnableExampleDiagnostics">
+      <parentCategory ref="ExampleVendorCategory" />
+      <supportedOn ref="windows:SUPPORTED_Windows7" />
+      <enabledValue><decimal value="1" /></enabledValue>
+      <disabledValue><decimal value="0" /></disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

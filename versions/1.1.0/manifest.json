@@ -1,0 +1,14 @@
+{
+  "ReleaseId": "1.1.0",
+  "Vendor": "Example Vendor",
+  "Product": "Example Administrative Templates",
+  "Version": "1.1.0",
+  "SourcePageUrl": "https://github.com/david-r-cushman/demo-admx-archive/blob/main/DEMO_ARTIFACTS.md",
+  "RegisteredAtUtc": "2026-11-18T00:09:21.6827847Z",
+  "SourceFiles": [
+    {
+      "Path": "ExampleAdministrativeTemplates-1.1.0.zip",
+      "SHA256": "EDF17D08769C1A97D64A6838D62797EE87C00567B8B3D4D20305066E0A9862E0"
+    }
+  ]
+}
