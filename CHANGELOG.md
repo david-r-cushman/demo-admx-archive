@@ -24,6 +24,12 @@ not version vendor distributions stored under `versions/`.
 - Made the README relationship to the reusable template explicit with a
   reciprocal link.
 
+- Explained the archive's operational-continuity purpose and its boundary from
+  Intune, Group Policy, Active Directory, and deployment-state recovery.
+
+- Corrected the generated registration-splat variable name in documentation
+  and comment-based help.
+
 ### Fixed
 
 - Preserved self-authored ADMX and ADML bytes as distributed so inspection
