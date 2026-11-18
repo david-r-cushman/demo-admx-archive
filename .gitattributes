@@ -1,0 +1,7 @@
+# Preserve the self-authored XML inspection copies byte-for-byte as distributed
+# in the demonstration ZIP archives on every supported checkout platform.
+*.admx text eol=lf
+*.adml text eol=lf
+
+# Source distributions are opaque binary integrity-baseline artifacts.
+*.zip binary

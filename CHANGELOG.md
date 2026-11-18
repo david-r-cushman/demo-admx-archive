@@ -21,6 +21,12 @@ not version vendor distributions stored under `versions/`.
 - Identified this derived archive as the Example Vendor demonstration of the
   vendor-admx-archive template.
 
+### Fixed
+
+- Preserved LF line endings for self-authored ADMX and ADML inspection copies
+  so they remain byte-for-byte comparable with the demonstration ZIP archives
+  on Windows checkouts.
+
 ## 0.1.0 - 2026-11-17
 
 ### Added
