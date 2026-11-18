@@ -5,10 +5,11 @@ administrative-template distributions. It preserves example source archives,
 records their provenance and SHA-256 hashes, and verifies that registered
 downloads have not changed.
 
-It was created from the
-[vendor-admx-archive](https://github.com/david-r-cushman/vendor-admx-archive)
-template. See [Demo Artifacts](DEMO_ARTIFACTS.md) for the fictional,
-self-authored artifact policy and licensing.
+> **Built from a reusable template:** This is a public, populated example of
+> [vendor-admx-archive](https://github.com/david-r-cushman/vendor-admx-archive),
+> showing the template's multi-release archive workflow in practice. See
+> [Demo Artifacts](DEMO_ARTIFACTS.md) for the fictional, self-authored artifact
+> policy and licensing.
 
 The archive does not establish vendor authenticity, download releases, extract
 packages, deploy templates, or diagnose every file in the repository. Git and

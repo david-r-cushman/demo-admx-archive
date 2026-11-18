@@ -21,6 +21,9 @@ not version vendor distributions stored under `versions/`.
 - Identified this derived archive as the Example Vendor demonstration of the
   vendor-admx-archive template.
 
+- Made the README relationship to the reusable template explicit with a
+  reciprocal link.
+
 ### Fixed
 
 - Preserved self-authored ADMX and ADML bytes as distributed so inspection
