@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <displayName />
+  <description />
+  <resources>
+    <stringTable>
+      <string id="ExampleVendorCategory">Example Vendor Policies</string>
+      <string id="EnableExampleFeature">Enable example feature</string>
+      <string id="EnableExampleFeature_Help">Enables the fictional Example Vendor feature for demonstration purposes.</string>
+      <string id="EnableExampleDiagnostics">Enable example diagnostics</string>
+      <string id="EnableExampleDiagnostics_Help">Enables fictional diagnostic output for demonstration purposes.</string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>
