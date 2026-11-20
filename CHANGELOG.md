@@ -30,6 +30,9 @@ not version vendor distributions stored under `versions/`.
 - Corrected the generated registration-splat variable name in documentation
   and comment-based help.
 
+- Renamed the GitHub Actions workflow to Pester Tests and added its status
+  badge to the README.
+
 ### Fixed
 
 - Preserved self-authored ADMX and ADML bytes as distributed so inspection

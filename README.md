@@ -1,5 +1,7 @@
 # Example Vendor Administrative Template Archive
 
+[![Pester Tests](https://github.com/david-r-cushman/demo-admx-archive/actions/workflows/pester.yml/badge.svg?branch=main)](https://github.com/david-r-cushman/demo-admx-archive/actions/workflows/pester.yml)
+
 This repository is a public demonstration archive for fictional Example Vendor
 administrative-template distributions. It preserves example source archives,
 records their provenance and SHA-256 hashes, and verifies that registered
