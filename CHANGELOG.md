@@ -37,6 +37,9 @@ not version vendor distributions stored under `versions/`.
 
 ### Fixed
 
+- Restored the default PSGallery registration in CI when a hosted runner does
+  not provide it before installing Pester.
+
 - Preserved self-authored ADMX and ADML bytes as distributed so inspection
   copies remain byte-for-byte comparable with the demonstration ZIP archives
   on every supported checkout platform.
