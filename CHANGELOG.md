@@ -18,6 +18,8 @@ not version vendor distributions stored under `versions/`.
 
 ### Changed
 
+- Pinned CI to Ubuntu 26.04 and PowerShell 7.6 LTS while retaining Pester 6.2.0.
+
 - Identified this derived archive as the Example Vendor demonstration of the
   vendor-admx-archive template.
 
